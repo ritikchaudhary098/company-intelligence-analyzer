@@ -1,0 +1,16 @@
+
+# Protect API keys
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated reports
+reports/
+
+# macOS
+.DS_Store
